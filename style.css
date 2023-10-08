@@ -1,0 +1,210 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* # Our Style */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* General Section */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.padding{
+    padding: 80px 0;
+}
+.Orange-btn a{
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #F55111;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.heading-text{
+    text-align: center;
+}
+
+u{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.small-text{
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+
+/* Header */
+
+.header .banner-img{
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+}
+.nav{
+    text-align: center;
+    position: absolute;
+    top: 30px;
+}
+.nav a{
+    color: gray;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px 9px;
+    margin-left: 6px;
+}
+
+
+.FLEX{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 80px;
+}
+.logo img{
+    width: 70px;
+    height: 100%;
+    object-fit: cover;
+}
+.FLEX-nav a{
+    padding: 0 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+h1{
+    padding: 0 15px;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #F55111;
+}
+.FLEX-nav .active{
+    color: #F55111;
+}
+.nav-bar{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Info{
+    display: flex;
+    justify-content: center;
+}
+.a{ 
+    position: absolute;
+    top: 270px;
+    color: #fff;
+    text-align: center;
+}
+h2{
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(101, 225, 208);
+    flex: 0 1 22%;
+    /* width: 23%; */
+    height: 280px; 
+    object-fit: cover;
+}
+.Second{
+    background-color: orange;
+}
+.Third{
+    background-color: rgb(70, 134, 223);
+}
+.Fourth{
+    background-color: rgb(76, 206, 76);
+}
+.icon a{
+    color: #fff; 
+}
+.service-icon{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+
+.clearfix::before, .clearfix::after{
+    display: table;
+    content: "";
+}
+.clearfix::after{
+    clear: both;
+}
