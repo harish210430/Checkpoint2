@@ -62,14 +62,14 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 32px;
+    /* padding: 0 32px; */
 }
 .flex{
     display: flex;
     justify-content: center;
 }
 .padding{
-    padding: 80px 0;
+    padding: 60px 0;
 }
 .Orange-btn a{
     font-size: 15px;
@@ -97,6 +97,15 @@ u{
     padding: 10px 0;
 }
 
+/* .Flex{
+    flex: 0 1 23%;
+} */
+
+.Flexy{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
 
 /* Header */
 
@@ -126,7 +135,7 @@ u{
     top: 80px;
 }
 .logo img{
-    width: 70px;
+    width: 100%;
     height: 100%;
     object-fit: cover;
 }
@@ -139,7 +148,7 @@ u{
 
 h1{
     padding: 0 15px;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 600;
     text-transform: uppercase;
     color: #F55111;
@@ -153,12 +162,7 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.Info{
-    display: flex;
-    justify-content: center;
-}
+}    
 .a{ 
     position: absolute;
     top: 270px;
@@ -173,12 +177,9 @@ h2{
 
 
 .icon{
-    display: flex;
-    justify-content: center;
     align-items: center;
     background-color: rgb(101, 225, 208);
-    flex: 0 1 22%;
-    /* width: 23%; */
+    flex: 0 1 23%;
     height: 280px; 
     object-fit: cover;
 }
@@ -194,13 +195,21 @@ h2{
 .icon a{
     color: #fff; 
 }
-.service-icon{
-    display: flex;
-    justify-content: space-around;
-    margin: 40px 0;
+
+
+.heading-text .Flexy{
+    flex-wrap: wrap;
 }
-
-
+.col-1-4{
+    flex: 0 1 23%;
+}
+.img{
+    width: 100%;
+    margin: 15px 0;
+}
+.member{
+    border-radius: 50%;
+}
 .clearfix::before, .clearfix::after{
     display: table;
     content: "";
