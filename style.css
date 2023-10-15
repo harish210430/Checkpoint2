@@ -346,6 +346,25 @@ iframe{
     padding: 5px 9px;
     margin-right: 6px;
 }
-.Gallery-imgs img{
+
+.Gallery-container{
+    padding-left: 26%;
+}
+/* .Gallery-imgs{
+    
+} */
+
+.Gallery-imgs .imz{
+    flex: 0 1 50%;
+    padding: 14px;
+    /* display: inline-block; */
+}
+.imaze{
     width: 100%;
+    /* flex-grow: 1; */
+    border: 3px solid black;
+    border-radius: 4px;
+}
+.Gallery-container .flex{
+    flex-wrap: wrap;
 }
