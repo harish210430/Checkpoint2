@@ -319,6 +319,7 @@ iframe{
 }
 .h1{
     color: #fff;
+    font-size: 30px;
 }
 .Gallery-bar a{
     color: #fff;
@@ -364,7 +365,9 @@ iframe{
     /* flex-grow: 1; */
     border: 3px solid black;
     border-radius: 4px;
+   
 }
 .Gallery-container .flex{
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
