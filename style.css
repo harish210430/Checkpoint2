@@ -107,7 +107,6 @@ u{
 }
 
 /* Header */
-
 .header .banner-img{
     width: 100vw;
     height: 70vh;
@@ -241,25 +240,18 @@ h3 i{
     text-align: start;
 }
 
-/* .grow{
-    display: flex;
-} */
 .col-2{
     width: 28%;
 }
-.col-2 .skill-perform{
-    margin: 10px 0;
-    background-color: #e13e10;
+.col-2 .progress{
+    text-transform: uppercase;
+    font-weight: 600;
     padding: 4px;
-    color: #fff;
     text-align: start;
-    /* flex-grow: 8; */
+    background-color: #ea513e;
+    margin: 10px 0;
+    color: #fff;
 }
-/* .white{
-    background-color: #a49e9e;
-    flex-grow: 2;
-    height: 100%;
-} */
 
 iframe{
     margin: 40px 0;
@@ -370,4 +362,13 @@ iframe{
 .Gallery-container .flex{
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+
+.clearfix::before, .clearfix::after{
+    display: table;
+    contain: "";
+}
+.clearfix::after{
+    clear: both;
 }
